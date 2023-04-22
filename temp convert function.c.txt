@@ -1,0 +1,12 @@
+#include <stdio.h>
+float temp(float n);
+
+int main() {
+    float n=37.00;
+    printf("temp is %f F", temp(n));
+   return 0;
+}
+float temp(float n) {
+    return ((n*9)/5)+32;
+
+}

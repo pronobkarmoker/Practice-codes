@@ -1,0 +1,16 @@
+#include <stdio.h>
+int printhw(int count);
+
+int main(){
+    printhw(10);
+    return 0;
+    
+}
+
+int printhw(int count){
+    if(count==0)
+    return;
+    
+    printf("hello world\n");
+    printhw(count-1);
+}
